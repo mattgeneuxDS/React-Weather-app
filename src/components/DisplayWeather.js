@@ -39,6 +39,30 @@ const DisplayWeather = (props) => {
                 </span>
               </td>
             </tr>
+            <tr>
+              <td>
+                <h4>Humidity</h4>
+              </td>
+              <td>
+                <span>{data.main.humidity} %</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Pressure</h4>
+              </td>
+              <td>
+                <span>{data.main.pressure} hPa</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Visibility</h4>
+              </td>
+              <td>
+                <span>{data.visibility / 1000} KM</span>
+              </td>
+            </tr>
           </table>
         </div>
       </div>
